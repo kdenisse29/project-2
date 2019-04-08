@@ -44,15 +44,18 @@ top-head{
   height: auto;
 
 }
-nav-list{
-  background-color: white;
+nav{
+  background: rgba(0,0,0, .02);
+}
+.nav-list{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-menu li {
+.nav-list li {
   padding: 0.7em;
+  float: center;
 }
   --- slideshow ---
 body {
